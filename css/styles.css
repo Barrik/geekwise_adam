@@ -1,5 +1,7 @@
 /*===== Global Styles =====*/
 
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Righteous|Bubblegum+Sans);
+
 html, body {
      width:100%;
      height:100%;
@@ -19,11 +21,15 @@ h1, h2, h3, h4 {
      margin:0px;
      padding:0px;
      color:#2e42d1; /* Faded Blue; primary color */
+     font-family: 'Righteous', cursive;
 }
 
 p {
      line-height:125%;
      margin:15px 0px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight:400;
+     font-size:18px;
 }
 
 b, strong {
@@ -48,15 +54,17 @@ a:hover {
 /*===== Header Styles =====*/
 
 header {
-background-color:#FFF;
+     background-color:#FFF;
+     padding:5px 0px;
 }
 
 #headerBlock {
-     padding:20px 0px 20px 0px;
+     padding:10px 0px 10px 0px;
 }
 
 #logo a {
      color:#d1bd2e;
+     font-size:1.7em;
 }
 
 #logo a:hover {
@@ -67,8 +75,8 @@ background-color:#FFF;
 
 #menu {
      position:absolute;
-     top:20px;
-     right:20px;
+     top:40px;
+     right:100px;
 }
 
 #menu ul {
@@ -80,6 +88,9 @@ background-color:#FFF;
      float:left;
      text-align:center;
      margin:0px 10px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight:700;
+     font-size: 1.7em;
 }
 
 .currentPage {
@@ -122,7 +133,7 @@ background-color:#FFF;
      font-weight:900;
      text-align:center;
      /*text-decoration:underline;*/
-     margin:25px 0px 10px 0px;
+     margin:70px 0px 10px 0px;
 }
 
 .columnA p, .columnB p, .columnC p {
@@ -134,12 +145,13 @@ background-color:#FFF;
      background-color:#2e42d1;
      color:#FFF;
      display:block;
-     font-size:1em;
+     font-size:1.5em;
      font-weight:700;
      margin:0px 0px 10px 0px;
      padding:15px 0px;
      text-align:center;
      border-radius:3px;
+     font-family: 'Bubblegum Sans', cursive;
 }
 
 .columnA, .columnB {
@@ -163,6 +175,8 @@ a.button {
      font-size:1.2em;
      border-radius:10px;
      margin:10px 0px;
+     transition:background 0.2s linear 0s;
+     font-family: 'Righteous', cursive;
 }
 
 
@@ -213,12 +227,15 @@ a.button:hover {
      color:#FFF;
      height:28px;
      width:28px;
+     transition:background 0.2s linear 0s;
+}
+
+.fa:hover {
+     background-color:#d1bb2e;
 }
 
 .fa-facebook {background-color:#0c516e;}
 .fa-twitter {background-color:#8ca6d9;}
-
-
 
 
 
