@@ -107,11 +107,34 @@ header {
      background:url(../images/banner_image_home.jpg) no-repeat center top #d1bd2e;
 }
 
-.bannerText {
+#bannerAbout {
+     overflow:hidden;
+     padding:20px 0px;
+     border-top:3px solid #2e42d1;
+     background-size:cover;
+     /*background:#d1bd2e;*/
+}
+
+#bannerContact {
+     overflow:hidden;
+     padding:0px 0px;
+     border-top:3px solid #2e42d1;
+     background-size:cover;
+     /*backgroundw:#d16c2e;*/
+}
+
+.bannerTextHome {
      color:#FFF;
      font-size:6.5em;
      text-align:center;
-     text-shadow:0px 5px 45px #000;
+     text-shadow:0px 0px 45px #000;
+}
+
+.bannerText {
+     color:#000;
+     font-size:6.5em;
+     text-align:center;
+     /*text-shadow:0px 0px 45px #000;*/
 }
 
 .center {
@@ -185,6 +208,10 @@ a.button:hover {
      background-color:#d1bd2e;
 }
 
+#aboutButton {
+     float:right;
+}
+
 /*===== About Me Styles =====*/
 
 #aboutMe {
@@ -196,6 +223,12 @@ a.button:hover {
      width:384px;
      float:left;
      margin-right:24px
+}
+
+.asideHomeRight {
+     width:384px;
+     float:right;
+     margin-left:24px
 }
 
 .articleHomeRight p {
